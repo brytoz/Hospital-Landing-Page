@@ -1,0 +1,201 @@
+@import url("style.css");
+	* {
+		width:100%;
+		text-decoration:none;
+	}
+	* .jumbotron{
+		margin-bottom:0px;
+		margin-top:0px;
+	}
+	body {
+		margin:0;
+		background-image:url("../images/brytoz.png");
+		background-position:fixed;
+		background-repeat:no-repeat;
+		height:auto;
+		width:100%;
+		z-index:2;
+	}
+	* ul {
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		overflow:hidden;
+		background-color:#333;
+		position:fixed;
+		top:0;
+		left:0;
+		width:100%;
+		text-align:center;
+	}
+	li {
+		display:inline;
+		padding:20px;
+		margin:;
+	}
+	
+	row {
+		margin:0px;
+	}
+	
+	li a {
+		color:white;
+		text-align:center;
+		padding:;
+		text-decoration:none;
+	}
+	
+	li a:hover:not(.active) {
+		background-color:#111;
+	}
+	.active {
+		background-color:#04f9b6;
+	}
+	.mant {
+		padding:20px;
+		margin-top:30px;
+	}
+	.services{
+		background-color:#04f9b6;
+		opacity:;
+		background-position:fixed;
+		background-repeat:no-repeat;
+		margin:0px;
+	}
+
+	#block {
+		margin:0px;
+		height:auto;
+		width:100%;
+	}
+	#jumbotron {
+		/*background-image:url("../images/brytoz.png");
+		background-repeat:no-repeat;
+		background-position:relative;*/
+		background-color:#04f9b6;
+	}
+	
+	/**#uppercase {
+		text-transform:uppercase;
+	}*/
+	
+	.banner {
+		background:url(../images/tac.png) no-repeat 0px 0px;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	min-height:770px;
+	color:white;
+	}
+	
+	nav {
+		z-index:1;
+	}
+	
+	#maint {
+		position:absolute;
+		overflow-x:hidden;
+		z-index:0;
+	}
+	.dloader {
+		margin:0px;
+		background-color:red;
+	}
+	
+	.dloader2 {
+		margin:0px;
+		padding:0px;
+	}
+	
+	.loader {
+		border:5px solid #f3f3f3;
+		border-radius:50%;
+		border-top:5px solid #48d1cc;
+		border-left:5px solid #48d1cc;
+		width:250px;
+		height:250px;
+		background-color:#212121;
+		
+	}
+	
+	.loader:hover{
+		-webkit-animation:spin 1s linear 1;
+		animation:spin 1s linear 1;
+		-webkit-animation-fill-mode:forward;
+		animation-fill-mode:forward;
+		animation-direction:linear;
+		
+	}
+	.loader:hover::b {
+		animation-direction:;
+	}
+	
+	@-webkit-keyframes spin {
+		0%{-webkit-transform:rotate(0deg);}
+	100% {-webkit-transform:rotate(180deg);}
+	}
+	
+	@keyframes spin {
+		0%{ transform:rotate(0deg);}
+		100% {transform :rotate(180deg);}
+	}
+	
+	footer {
+	z-index:1;
+	height:200px;
+	background-color:#04f9b6;
+	bottom:0;
+}
+
+/*-- start-responsive-design --*/
+@media (max-width:1440px){
+	
+}
+@media (max-width:1366px){
+	
+}
+@media (max-width:1280px){
+	
+}
+@media (max-width:1080px){
+	
+}
+@media (max-width: 1050px){
+	body  {
+		width:100%;
+	}
+}
+@media (max-width: 1024px){
+	.rise{
+		
+	}
+}
+@media (max-width: 991px){
+	body  {
+		width:100%;
+	}
+}
+@media (max-width: 800px){
+	body  {
+		width:100%;
+	}
+}
+@media (max-width: 768px){
+	body  {
+		width:100%;
+	}
+}
+@media (max-width: 736px){
+	body  {
+		width:100%;
+	}
+}
+@media (max-width: 667px){
+	body  {
+		width:100%;
+	}
+}
+	
+	
